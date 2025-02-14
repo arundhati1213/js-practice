@@ -35,3 +35,24 @@ const myFunction = function(){
 console.log(typeof myFunction, "myFunction");
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//stack and heap memory
+//stack - primitive 
+//heap - non-primitive
+
+let myName = "Arundhati"
+let myAge = 30
+
+myName="Liza";
+console.log(myName);
+
+let userOne = {
+    name:"Aru",
+    email:"liza.alpha@gmail.com"
+}
+let userTwo = userOne;
+
+userTwo.email = "arundhativlog@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
