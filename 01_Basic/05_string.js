@@ -34,3 +34,19 @@ console.log(url.replace('%20', '-'))
 console.log(url.includes('blogger'))
 
 console.log(gameName.split('-'));
+
+//Comparing strings
+const a = 9;
+const b = 11;
+
+if (a < b)
+{
+    console.log(`${a} is less than ${b}`);
+}else if (a > b) 
+{
+    console.log(`${a} is greater than ${b}`);
+    
+} else {
+    console.log(`${a} and ${b} are equal.`);
+    
+}
