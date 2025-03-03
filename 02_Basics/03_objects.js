@@ -1,8 +1,8 @@
 // Singleton
 // Constructor - Object.create
-
 // object literals
 
+// object literals
 const mySym = "key1";
 
 const JSUser = {
